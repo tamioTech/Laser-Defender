@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] float padding1 = .5f;
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed = 50f;
+    [SerializeField] float projectileFiringPeriod = 0.1f;
 
 
     float xMin;
@@ -20,6 +21,8 @@ public class Player : MonoBehaviour
     void Start()
     {
         SetUpMoveBoundaries();
+        StartCoroutine(PrintAndWait());
+        StartCoroutine(PrintingAndWaiting());
 
     }
 
@@ -31,16 +34,38 @@ public class Player : MonoBehaviour
         Fire();
     }
 
+    IEnumerator PrintingAndWaiting()
+    {
+        Debug.Log("Starting up primary engines. Wait 5 seconds");
+        yield return new WaitForSeconds(5);
+        Debug.Log("5 seconds is up.  Starting primary engines!");
+    }
+
+
+    IEnumerator PrintAndWait()
+    {
+        Debug.Log("First message received Bozu!");
+        yield return new WaitForSeconds(3);
+        Debug.Log("Second message flew in Sensei!");
+    }
+
     private void Fire()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            GameObject laser = Instantiate(
-                laserPrefab, transform.position, Quaternion.identity
-                ) as GameObject;
-            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+            FireContinuously();
         }
     }
+
+    IEnumerator FireContinuously()
+    {
+        GameObject laser = Instantiate(
+                laserPrefab, transform.position, Quaternion.identity
+                ) as GameObject;
+        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+        yield return new WaitForSeconds(projectileFiringPeriod);
+    }
+
 
     private void Move()
     {
