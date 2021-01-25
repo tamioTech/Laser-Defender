@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{BF55AF7D-4220-36CF-BA43-F8D8781D27A7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NewBehaviourScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="28" Column="2" />
+      <File FileName="Assets/Scripts/Player.cs" Line="44" Column="44" />
+      <File FileName="Assets/Scripts/NewBehaviourScript.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +10,7 @@
           <Node name="Laser-Defender" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Player.cs" selected="True" />
+                <Node name="NewBehaviourScript.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -19,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7eaedf93-bdf5-47e7-8761-bffab2b1f7be" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="839c65be-c53f-4f62-a916-106a66e10313" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
