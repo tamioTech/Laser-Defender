@@ -1,15 +1,20 @@
 ﻿<Properties StartupConfiguration="{FD4A65F0-183F-9B01-6FDD-D96D34E458E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Shredder.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WaveConfig.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="44" Column="44" />
-      <File FileName="Assets/Scripts/Shredder.cs" Line="9" Column="14" />
+      <File FileName="Assets/Scripts/Shredder.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="32" Column="22" />
+      <File FileName="Assets/Scripts/WaveConfig.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/enemyPathing.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Laser-Defender" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="WaveConfig.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
