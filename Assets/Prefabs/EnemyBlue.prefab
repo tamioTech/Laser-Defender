@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 255749386406805348}
   - component: {fileID: 6354744674443233091}
   - component: {fileID: -6350000030662145695}
+  - component: {fileID: 9041766282381332799}
   m_Layer: 0
   m_Name: EnemyBlue
   m_TagString: Untagged
@@ -95,3 +96,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60022588cbde74f468fdffaf9e88cadd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9041766282381332799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2270074476308466315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbbfe6dcb481499e8161525ea2ba9b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
