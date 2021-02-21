@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float maxTimeBetweenShots = 3f;
     [SerializeField] GameObject enemyLaserPrefab;
     [SerializeField] float enemyProjectileSpeed = 10f;
-    [SerializeField] float enemyProjectileFiringPeriod = 0.1f;
+    //[SerializeField] float enemyProjectileFiringPeriod = 0.1f;
 
     Coroutine enemyFiringCoroutine;
 
