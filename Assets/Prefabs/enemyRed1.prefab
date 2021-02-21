@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6131326044478116063}
   - component: {fileID: -7138498066653096186}
   - component: {fileID: 5165651578354986625}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: enemyRed1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,6 +110,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  shotCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  enemyLaserPrefab: {fileID: 1133287579349131237, guid: 8151617a62d3c4c348718b5ff36fef3e, type: 3}
+  enemyProjectileSpeed: 20
+  enemyProjectileFiringPeriod: 0.1
 --- !u!58 &5165651578354986625
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -120,7 +126,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
