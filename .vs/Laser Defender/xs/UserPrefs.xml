@@ -1,23 +1,22 @@
-﻿<Properties StartupConfiguration="{FD4A65F0-183F-9B01-6FDD-D96D34E458E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/enemyPathing.cs">
+﻿<Properties StartupConfiguration="{BF55AF7D-4220-36CF-BA43-F8D8781D27A7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BackgroundScroller.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="60" Column="1" />
-      <File FileName="Assets/Scripts/Shredder.cs" Line="9" Column="37" />
-      <File FileName="../blockBreaker/Block Breaker/Assets/Scripts/loseCollider.cs" Line="1" Column="1" />
-      <File FileName="../blockBreaker/Block Breaker/Assets/Scripts/Ball.cs" Line="24" Column="31" />
-      <File FileName="../blockBreaker/Block Breaker/Assets/Scripts/Block.cs" Line="79" Column="31" />
+      <File FileName="Assets/Scripts/Shredder.cs" />
+      <File FileName="../blockBreaker/Block Breaker/Assets/Scripts/loseCollider.cs" />
+      <File FileName="../blockBreaker/Block Breaker/Assets/Scripts/Ball.cs" />
+      <File FileName="../blockBreaker/Block Breaker/Assets/Scripts/Block.cs" />
       <File FileName="Assets/Scripts/enemyPathing.cs" Line="28" Column="38" />
-      <File FileName="Assets/Scripts/WaveConfig.cs" Line="21" Column="9" />
-      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="15" Column="60" />
+      <File FileName="Assets/Scripts/WaveConfig.cs" />
+      <File FileName="Assets/Scripts/EnemySpawner.cs" />
+      <File FileName="Assets/Scripts/BackgroundScroller.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Laser Defender" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="enemyPathing.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="79bdb57a-1303-441e-92f2-144ba0a78fbe" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="47dbdaff-b68e-491f-816a-5198008955ca" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
