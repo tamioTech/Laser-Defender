@@ -60,10 +60,10 @@
     <Compile Include="Assets/Scripts/DamageDealer.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/Enemy.cs" />
+    <Compile Include="Assets/Scripts/BackgroundScroller.cs" />
     <Compile Include="Assets/Scripts/enemyPathing.cs" />
     <Compile Include="Assets/Scripts/Shredder.cs" />
     <Compile Include="Assets/Scripts/EnemySpawner.cs" />
-    <Compile Include="Assets/Scripts/BackgroundScroller.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Kenny Asset Pack/Spritesheet/sheet.xml" />

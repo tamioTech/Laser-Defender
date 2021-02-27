@@ -114,8 +114,10 @@ MonoBehaviour:
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
   enemyLaserPrefab: {fileID: 1133287579349131237, guid: 8151617a62d3c4c348718b5ff36fef3e, type: 3}
+  explosionPrefab: {fileID: 0}
   enemyProjectileSpeed: 20
-  enemyProjectileFiringPeriod: 0.1
+  deathVFX: {fileID: 4488634806605011413, guid: beb6471f2a5a54f5d876b071987a8903, type: 3}
+  durationOfExplosion: 1
 --- !u!58 &4598594448745662
 CircleCollider2D:
   m_ObjectHideFlags: 0

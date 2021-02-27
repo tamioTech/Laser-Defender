@@ -11,7 +11,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] float maxTimeBetweenShots = 3f;
     [SerializeField] GameObject enemyLaserPrefab;
     [SerializeField] float enemyProjectileSpeed = 10f;
-    //[SerializeField] float enemyProjectileFiringPeriod = 0.1f;
+    [SerializeField] GameObject deathVFX;
+    [SerializeField] float durationOfExplosion = 1f;
+
+
 
     Coroutine enemyFiringCoroutine;
 
@@ -47,19 +50,6 @@ public class Enemy : MonoBehaviour
         
     }
 
-
-    //IEnumerable EnemyFire()
-    //{
-    //    while (true)
-    //    {
-    //        GameObject enemyLaser = Instantiate(
-    //                    enemyLaserPrefab, transform.position, Quaternion.identity
-    //                    ) as GameObject;
-    //        enemyLaser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, enemyProjectileSpeed);
-    //        yield return new WaitForSeconds(enemyProjectileFiringPeriod);
-    //    }
-    //}
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         DamageDealer damageDealer = other.gameObject.GetComponent<DamageDealer>();
@@ -73,7 +63,14 @@ public class Enemy : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
+
         }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
+        Destroy(explosion, durationOfExplosion);
     }
 }

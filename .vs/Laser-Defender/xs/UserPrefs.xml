@@ -1,23 +1,21 @@
 ﻿<Properties StartupConfiguration="{BF55AF7D-4220-36CF-BA43-F8D8781D27A7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BackgroundScroller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="42" Column="9" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="14" Column="7" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="17" Column="53" />
       <File FileName="Assets/Scripts/Shredder.cs" />
-      <File FileName="Assets/Scripts/EnemySpawner.cs" />
-      <File FileName="Assets/Scripts/WaveConfig.cs" />
-      <File FileName="Assets/Scripts/enemyPathing.cs" />
-      <File FileName="Assets/Scripts/DamageDealer.cs" />
+      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="27" Column="42" />
+      <File FileName="Assets/Scripts/enemyPathing.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DamageDealer.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/BackgroundScroller.cs" Line="22" Column="65" />
+      <File FileName="Assets/Scripts/WaveConfig.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Laser-Defender" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="BackgroundScroller.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1cdbf4d5-6f4b-4070-ac30-ff031c480652" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5e7673de-754f-4b9d-aafa-981f3261fe29" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
