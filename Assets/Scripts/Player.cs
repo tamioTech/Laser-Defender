@@ -76,13 +76,10 @@ public class Player : MonoBehaviour
 
     Coroutine firingCoroutine;
 
-    bool alive = true;
-
     float xMin;
     float xMax;
     float yMin;
     float yMax;
-    float delay = 2f;
 
     // Start is called before the first frame update
     void Start()
@@ -108,26 +105,15 @@ public class Player : MonoBehaviour
 
     private void ProcessHit(DamageDealer damageDealer)
     {
-        while (alive)
+        playerHealth -= damageDealer.GetDamage();
+        damageDealer.Hit();
+        if (playerHealth <= 0)
         {
-            playerHealth -= damageDealer.GetDamage();
-            damageDealer.Hit();
-            if (playerHealth <= 0)
-            {
-                Destroy(gameObject);
-                AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
-                StartCoroutine(LoadGameOverScreen());
-            }
+            Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
+            
+
         }
-        SceneManager.LoadScene("Game Over");
-    }
-
-    IEnumerator LoadGameOverScreen()
-    {
-        yield return new WaitForSeconds(2);
-        alive = false;
-        
-
     }
 
 
