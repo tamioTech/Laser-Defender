@@ -2,46 +2,46 @@
 "instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
 "traceEvents":[
 { "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
-,{ "pid":1, "tid":0, "ts":1618627887737554, "dur":611, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":1, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627887738165, "dur":191, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627887738483, "dur":28, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
-,{ "pid":1, "tid":0, "ts":1618627887738511, "dur":3, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
-,{ "pid":1, "tid":0, "ts":1618627887738514, "dur":181, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"BuildQueueInit" }}
-,{ "pid":1, "tid":0, "ts":1618627893064474, "dur":105, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064584, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064591, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064596, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064601, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064706, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064818, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064824, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064832, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":0, "ts":1618627893064862, "dur":558, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"Write AllBuiltNodes" }}
-,{ "pid":1, "tid":1, "ts":1618627887738577, "dur":5325977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":5326, "detail":"" }}
-,{ "pid":1, "tid":1, "ts":1618627893064556, "dur":6, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":2, "ts":1618627887738625, "dur":5325883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":5326, "detail":"" }}
-,{ "pid":1, "tid":2, "ts":1618627893064519, "dur":19, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":3, "ts":1618627887738610, "dur":5325873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":5326, "detail":"" }}
-,{ "pid":1, "tid":3, "ts":1618627893064491, "dur":6, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":4, "ts":1618627887738646, "dur":5325875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":5326, "detail":"" }}
-,{ "pid":1, "tid":4, "ts":1618627893064532, "dur":3, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":5, "ts":1618627887738664, "dur":5314025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":5314, "detail":"" }}
-,{ "pid":1, "tid":5, "ts":1618627893052693, "dur":2245, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":2, "detail":"Copy Additional C++ File /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp" }}
-,{ "pid":1, "tid":5, "ts":1618627893055002, "dur":9310, "ph":"X", "name": "Copy",  "args": { "durationMS":9, "detail":"Additional C++ File /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp" }}
-,{ "pid":1, "tid":5, "ts":1618627893064381, "dur":92, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":5, "ts":1618627893064477, "dur":2, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":6, "ts":1618627887738686, "dur":59, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":6, "ts":1618627887738750, "dur":3227, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":3, "detail":"Il2Cpp /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput" }}
-,{ "pid":1, "tid":6, "ts":1618627887742654, "dur":5307641, "ph":"X", "name": "Il2Cpp",  "args": { "durationMS":5308, "detail":"/Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput" }}
-,{ "pid":1, "tid":6, "ts":1618627893052664, "dur":1019, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":1, "detail":"Copy Additional C++ File /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp" }}
-,{ "pid":1, "tid":6, "ts":1618627893053760, "dur":10561, "ph":"X", "name": "Copy",  "args": { "durationMS":11, "detail":"Additional C++ File /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp" }}
-,{ "pid":1, "tid":6, "ts":1618627893064426, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
-,{ "pid":1, "tid":6, "ts":1618627893064445, "dur":36, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
-,{ "pid":1, "tid":6, "ts":1618627893064486, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":7, "ts":1618627887738751, "dur":5325786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":5326, "detail":"" }}
-,{ "pid":1, "tid":7, "ts":1618627893064550, "dur":3, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
-,{ "pid":1, "tid":8, "ts":1618627887738703, "dur":5325788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":5326, "detail":"" }}
-,{ "pid":1, "tid":8, "ts":1618627893064504, "dur":13, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":0, "ts":1618634226475302, "dur":384, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634226475686, "dur":1093, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":1, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634226476908, "dur":16, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":1618634226476924, "dur":444, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":1618634226477368, "dur":145, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":1618634234362066, "dur":127, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362205, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362216, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362240, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362386, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362395, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362402, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362409, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362514, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":1618634234362542, "dur":739, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"Write AllBuiltNodes" }}
+,{ "pid":1, "tid":1, "ts":1618634226477420, "dur":7884699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":7885, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":1618634234362136, "dur":5, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":2, "ts":1618634226477467, "dur":7884709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":7885, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":1618634234362186, "dur":6, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":3, "ts":1618634226477451, "dur":7884742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":7885, "detail":"" }}
+,{ "pid":1, "tid":3, "ts":1618634234362216, "dur":4, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":4, "ts":1618634226477529, "dur":56, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":1618634226477596, "dur":2279, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":2, "detail":"Il2Cpp /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput" }}
+,{ "pid":1, "tid":4, "ts":1618634226505064, "dur":7837739, "ph":"X", "name": "Il2Cpp",  "args": { "durationMS":7838, "detail":"/Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput" }}
+,{ "pid":1, "tid":4, "ts":1618634234344960, "dur":3105, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":3, "detail":"Copy Additional C++ File /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":1, "tid":4, "ts":1618634234348255, "dur":13655, "ph":"X", "name": "Copy",  "args": { "durationMS":14, "detail":"Additional C++ File /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":1, "tid":4, "ts":1618634234362020, "dur":51, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":1618634234362071, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":5, "ts":1618634226477512, "dur":7884593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":7885, "detail":"" }}
+,{ "pid":1, "tid":5, "ts":1618634234362122, "dur":6, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":6, "ts":1618634226477492, "dur":7884729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":7885, "detail":"" }}
+,{ "pid":1, "tid":6, "ts":1618634234362233, "dur":5, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":7, "ts":1618634226477546, "dur":7884612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":7885, "detail":"" }}
+,{ "pid":1, "tid":7, "ts":1618634234362168, "dur":7, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":8, "ts":1618634226477590, "dur":7867395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":7867, "detail":"" }}
+,{ "pid":1, "tid":8, "ts":1618634234344990, "dur":5771, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":6, "detail":"Copy Additional C++ File /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":1, "tid":8, "ts":1618634234350859, "dur":11047, "ph":"X", "name": "Copy",  "args": { "durationMS":11, "detail":"Additional C++ File /Users/tamio/Documents/UnityProjects/Unity2DCourse/Laser-Defender/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":1, "tid":8, "ts":1618634234362031, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
+,{ "pid":1, "tid":8, "ts":1618634234362040, "dur":102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":8, "ts":1618634234362145, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
 
 ]
 }

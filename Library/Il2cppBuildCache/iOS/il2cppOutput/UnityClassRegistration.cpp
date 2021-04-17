@@ -30,6 +30,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_ParticleSystem();
 	RegisterModule_ParticleSystem();
 
+	void RegisterModule_Physics();
+	RegisterModule_Physics();
+
 	void RegisterModule_Physics2D();
 	RegisterModule_Physics2D();
 
@@ -38,6 +41,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_TextRendering();
 	RegisterModule_TextRendering();
+
+	void RegisterModule_TextCore();
+	RegisterModule_TextCore();
 
 	void RegisterModule_UI();
 	RegisterModule_UI();
@@ -136,7 +142,7 @@ class VideoPlayer;
 class VisualEffect; 
 class WindZone; 
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
-class Collider; 
+class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class BoxCollider; 
 class CapsuleCollider; 
 class CharacterController; 
@@ -169,9 +175,9 @@ class SpriteShapeRenderer;
 class TilemapRenderer; 
 class TrailRenderer; 
 class VFXRenderer; 
-class Rigidbody; 
+class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
 class Rigidbody2D; template <> void RegisterUnityClass<Rigidbody2D>(const char*);
-namespace TextRenderingPrivate { class TextMesh; } 
+namespace TextRenderingPrivate { class TextMesh; } template <> void RegisterUnityClass<TextRenderingPrivate::TextMesh>(const char*);
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
 namespace UI { class RectTransform; } template <> void RegisterUnityClass<UI::RectTransform>(const char*);
 class Tree; 
@@ -249,7 +255,7 @@ class InputManager; template <> void RegisterUnityClass<InputManager>(const char
 class MonoManager; template <> void RegisterUnityClass<MonoManager>(const char*);
 class NavMeshProjectSettings; 
 class Physics2DSettings; template <> void RegisterUnityClass<Physics2DSettings>(const char*);
-class PhysicsManager; 
+class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class PlayerSettings; template <> void RegisterUnityClass<PlayerSettings>(const char*);
 class QualitySettings; template <> void RegisterUnityClass<QualitySettings>(const char*);
 class ResourceManager; template <> void RegisterUnityClass<ResourceManager>(const char*);
@@ -282,7 +288,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 74 non stripped classes
+	//Total: 78 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -409,27 +415,35 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<ParticleSystem>("ParticleSystem");
 	//62. ParticleSystemRenderer
 	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
-	//63. BoxCollider2D
+	//63. Collider
+	RegisterUnityClass<Collider>("Physics");
+	//64. PhysicsManager
+	RegisterUnityClass<PhysicsManager>("Physics");
+	//65. Rigidbody
+	RegisterUnityClass<Rigidbody>("Physics");
+	//66. BoxCollider2D
 	RegisterUnityClass<BoxCollider2D>("Physics2D");
-	//64. CapsuleCollider2D
+	//67. CapsuleCollider2D
 	RegisterUnityClass<CapsuleCollider2D>("Physics2D");
-	//65. CircleCollider2D
+	//68. CircleCollider2D
 	RegisterUnityClass<CircleCollider2D>("Physics2D");
-	//66. Collider2D
+	//69. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//67. Physics2DSettings
+	//70. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//68. PolygonCollider2D
+	//71. PolygonCollider2D
 	RegisterUnityClass<PolygonCollider2D>("Physics2D");
-	//69. Rigidbody2D
+	//72. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//70. TextRendering::Font
+	//73. TextRendering::Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//71. UI::Canvas
+	//74. TextRenderingPrivate::TextMesh
+	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
+	//75. UI::Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//72. UI::CanvasGroup
+	//76. UI::CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//73. UI::CanvasRenderer
+	//77. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

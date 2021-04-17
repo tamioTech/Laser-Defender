@@ -21,6 +21,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -65,6 +66,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -102,6 +104,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -118,6 +121,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -134,6 +138,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -143,6 +148,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -152,6 +158,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -182,6 +189,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -212,6 +220,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -221,6 +230,225 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Canvas",
+            "fullManagedTypeName": "UnityEngine.Canvas",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Font",
+            "fullManagedTypeName": "UnityEngine.Font",
+            "moduleName": "TextRendering",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Behaviour",
+            "fullManagedTypeName": "UnityEngine.Behaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Renderer",
+            "fullManagedTypeName": "UnityEngine.Renderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystemRenderer",
+            "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystem",
+            "fullManagedTypeName": "UnityEngine.ParticleSystem",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Texture2D",
+            "fullManagedTypeName": "UnityEngine.Texture2D",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RenderSettings",
+            "fullManagedTypeName": "UnityEngine.RenderSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshRenderer",
+            "fullManagedTypeName": "UnityEngine.MeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Transform",
+            "fullManagedTypeName": "UnityEngine.Transform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Camera",
+            "fullManagedTypeName": "UnityEngine.Camera",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Texture",
+            "fullManagedTypeName": "UnityEngine.Texture",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Component",
+            "fullManagedTypeName": "UnityEngine.Component",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Mesh",
+            "fullManagedTypeName": "UnityEngine.Mesh",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "GameObject",
+            "fullManagedTypeName": "UnityEngine.GameObject",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "NavMeshSettings",
+            "fullManagedTypeName": "",
+            "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MonoBehaviour",
+            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshFilter",
+            "fullManagedTypeName": "UnityEngine.MeshFilter",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "LevelGameManager",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
+                "Assets/Scenes/Level 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightmapSettings",
+            "fullManagedTypeName": "UnityEngine.LightmapSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start Menu.unity",
                 "Assets/Scenes/Level 1.unity"
             ]
         },
@@ -271,134 +499,8 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Canvas",
-            "fullManagedTypeName": "UnityEngine.Canvas",
-            "moduleName": "UI",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Behaviour",
-            "fullManagedTypeName": "UnityEngine.Behaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Renderer",
-            "fullManagedTypeName": "UnityEngine.Renderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "ParticleSystemRenderer",
-            "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
-            "moduleName": "ParticleSystem",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "ParticleSystem",
-            "fullManagedTypeName": "UnityEngine.ParticleSystem",
-            "moduleName": "ParticleSystem",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Sprite",
             "fullManagedTypeName": "UnityEngine.Sprite",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture2D",
-            "fullManagedTypeName": "UnityEngine.Texture2D",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RenderSettings",
-            "fullManagedTypeName": "UnityEngine.RenderSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshRenderer",
-            "fullManagedTypeName": "UnityEngine.MeshRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Transform",
-            "fullManagedTypeName": "UnityEngine.Transform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Camera",
-            "fullManagedTypeName": "UnityEngine.Camera",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture",
-            "fullManagedTypeName": "UnityEngine.Texture",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Component",
-            "fullManagedTypeName": "UnityEngine.Component",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Mesh",
-            "fullManagedTypeName": "UnityEngine.Mesh",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "GameObject",
-            "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Level 1.unity"
@@ -424,15 +526,6 @@
         },
         {
             "managedAssemblyName": "",
-            "nativeClass": "NavMeshSettings",
-            "fullManagedTypeName": "",
-            "moduleName": "AI",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
             "nativeClass": "SampleClip",
             "fullManagedTypeName": "",
             "moduleName": "Audio",
@@ -442,54 +535,9 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MonoBehaviour",
-            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshFilter",
-            "fullManagedTypeName": "UnityEngine.MeshFilter",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Collider2D",
             "fullManagedTypeName": "UnityEngine.Collider2D",
             "moduleName": "Physics2D",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RectTransform",
-            "fullManagedTypeName": "UnityEngine.RectTransform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "LevelGameManager",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightmapSettings",
-            "fullManagedTypeName": "UnityEngine.LightmapSettings",
-            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Level 1.unity"
             ]
@@ -532,6 +580,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "SceneLoader",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Shredder",
             "moduleName": "",
             "usedInScenes": []
@@ -558,6 +613,48 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_ColorGradient",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_FontAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_Settings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_SpriteAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshProUGUI",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
@@ -568,6 +665,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.StandaloneInputModule",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Button",
             "moduleName": "",
             "usedInScenes": []
         },

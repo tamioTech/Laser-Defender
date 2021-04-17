@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 
@@ -75,10 +76,13 @@ public class Player : MonoBehaviour
 
     Coroutine firingCoroutine;
 
+    bool alive = true;
+
     float xMin;
     float xMax;
     float yMin;
     float yMax;
+    float delay = 2f;
 
     // Start is called before the first frame update
     void Start()
@@ -104,14 +108,28 @@ public class Player : MonoBehaviour
 
     private void ProcessHit(DamageDealer damageDealer)
     {
-        playerHealth -= damageDealer.GetDamage();
-        damageDealer.Hit();
-        if (playerHealth <= 0)
+        while (alive)
         {
-            Destroy(gameObject);
-            AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
+            playerHealth -= damageDealer.GetDamage();
+            damageDealer.Hit();
+            if (playerHealth <= 0)
+            {
+                Destroy(gameObject);
+                AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
+                StartCoroutine(LoadGameOverScreen());
+            }
         }
+        SceneManager.LoadScene("Game Over");
     }
+
+    IEnumerator LoadGameOverScreen()
+    {
+        yield return new WaitForSeconds(2);
+        alive = false;
+        
+
+    }
+
 
     private void Fire()
     {

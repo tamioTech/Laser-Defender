@@ -18,17 +18,12 @@
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
-		<type fullname="UnityEngine.Rigidbody2D" preserve="nothing"/>
-		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
-		<type fullname="UnityEngine.CapsuleCollider2D" preserve="nothing"/>
-		<type fullname="UnityEngine.BoxCollider2D" preserve="nothing"/>
-		<type fullname="UnityEngine.PolygonCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
+		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.ParticleSystemRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.ParticleSystem" preserve="nothing"/>
-		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
@@ -38,13 +33,20 @@
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
-		<type fullname="UnityEngine.SpriteRenderer" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
-		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Rigidbody2D" preserve="nothing"/>
+		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
+		<type fullname="UnityEngine.CapsuleCollider2D" preserve="nothing"/>
+		<type fullname="UnityEngine.BoxCollider2D" preserve="nothing"/>
+		<type fullname="UnityEngine.PolygonCollider2D" preserve="nothing"/>
+		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.SpriteRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
+		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="BackgroundScroller" preserve="nothing"/>
@@ -52,6 +54,7 @@
 		<type fullname="Enemy" preserve="nothing"/>
 		<type fullname="EnemySpawner" preserve="nothing"/>
 		<type fullname="Player" preserve="nothing"/>
+		<type fullname="SceneLoader" preserve="nothing"/>
 		<type fullname="Shredder" preserve="nothing"/>
 		<type fullname="WaveConfig" preserve="nothing"/>
 		<type fullname="enemyPathing" preserve="nothing"/>
@@ -59,9 +62,18 @@
 	<assembly fullname="Unity.2D.IK.Runtime">
 		<type fullname="UnityEditor.U2D.IK.IKEditorManagerHelper" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TMP_ColorGradient" preserve="nothing"/>
+		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
+		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
+		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
 		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 	</assembly>
