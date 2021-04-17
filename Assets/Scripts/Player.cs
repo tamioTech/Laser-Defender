@@ -2,6 +2,61 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Player : MonoBehaviour
 {
     //config params
@@ -13,6 +68,10 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed = 50f;
     [SerializeField] float projectileFiringPeriod = 0.1f;
+    [SerializeField] AudioClip deathSFX;
+    [SerializeField] [Range(0, 1)] float deathSFXVolume = 1f;
+    [SerializeField] AudioClip playerShootSFX;
+    [SerializeField] [Range(0, 1)] float playerShootSFXVolume = 0.5f;
 
     Coroutine firingCoroutine;
 
@@ -50,6 +109,7 @@ public class Player : MonoBehaviour
         if (playerHealth <= 0)
         {
             Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
         }
     }
 
@@ -58,6 +118,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
            firingCoroutine = StartCoroutine(FireContinuously());
+           
         }
         if (Input.GetButtonUp("Fire1"))
         {
@@ -69,6 +130,7 @@ public class Player : MonoBehaviour
     {
         while (true)
         {
+            AudioSource.PlayClipAtPoint(playerShootSFX, Camera.main.transform.position, playerShootSFXVolume);
             GameObject laser = Instantiate(
                     laserPrefab, transform.position, Quaternion.identity
                     ) as GameObject;

@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{BF55AF7D-4220-36CF-BA43-F8D8781D27A7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BackgroundScroller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="42" Column="9" />
       <File FileName="Assets/Scripts/Enemy.cs" Line="12" Column="50" />
@@ -14,10 +14,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Laser-Defender" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="BackgroundScroller.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3d58093c-d4c0-4bd3-9ab0-b1545a599605" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c4e8ce1a-e06c-4928-b956-1616b5500a44" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -2,6 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Enemy : MonoBehaviour
 {
 
@@ -13,6 +55,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] float enemyProjectileSpeed = 10f;
     [SerializeField] GameObject deathVFX;
     [SerializeField] float durationOfExplosion = 1f;
+    [SerializeField] AudioClip deathSFX;
+    [SerializeField][Range(0,1)] float deathSoundVolume = 0.75f;
+    [SerializeField] AudioClip enemyShootSFX;
+    [SerializeField] [Range(0, 1)] float enemyShootSFXVolume = 0.5f;
 
 
 
@@ -47,7 +93,8 @@ public class Enemy : MonoBehaviour
                         enemyLaserPrefab, transform.position, Quaternion.identity
                         ) as GameObject;
         enemyLaser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -enemyProjectileSpeed);
-        
+        AudioSource.PlayClipAtPoint(enemyShootSFX, Camera.main.transform.position, enemyShootSFXVolume);
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -72,5 +119,6 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(explosion, durationOfExplosion);
+        AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSoundVolume);
     }
 }

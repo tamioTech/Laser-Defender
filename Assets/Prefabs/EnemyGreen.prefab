@@ -130,7 +130,10 @@ MonoBehaviour:
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
   enemyLaserPrefab: {fileID: 1133287579349131237, guid: 8151617a62d3c4c348718b5ff36fef3e, type: 3}
-  explosionPrefab: {fileID: 0}
   enemyProjectileSpeed: 20
   deathVFX: {fileID: 4488634806605011413, guid: beb6471f2a5a54f5d876b071987a8903, type: 3}
   durationOfExplosion: 1
+  deathSFX: {fileID: 8300000, guid: 3e32ad96de45245e78d0221bc952ced9, type: 3}
+  deathSoundVolume: 0.75
+  enemyShootSFX: {fileID: 8300000, guid: a230361cc9c064afbb1496a60356301b, type: 3}
+  enemyShootSFXVolume: 0.5
