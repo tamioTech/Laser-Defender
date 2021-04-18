@@ -1,25 +1,23 @@
 ﻿<Properties StartupConfiguration="{BF55AF7D-4220-36CF-BA43-F8D8781D27A7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelLoader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="73" Column="5" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="96" Column="103" />
-      <File FileName="Assets/Scripts/Shredder.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/enemyPathing.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DamageDealer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BackgroundScroller.cs" Line="8" Column="56" />
-      <File FileName="Assets/Scripts/WaveConfig.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SceneLoader.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LevelLoader.cs" Line="4" Column="10" />
+      <File FileName="Assets/Scripts/Player.cs" Line="114" Column="13" />
+      <File FileName="Assets/Scripts/Enemy.cs" />
+      <File FileName="Assets/Scripts/Shredder.cs" />
+      <File FileName="Assets/Scripts/EnemySpawner.cs" />
+      <File FileName="Assets/Scripts/enemyPathing.cs" />
+      <File FileName="Assets/Scripts/DamageDealer.cs" />
+      <File FileName="Assets/Scripts/BackgroundScroller.cs" />
+      <File FileName="Assets/Scripts/WaveConfig.cs" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Laser-Defender" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="LevelLoader.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -28,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c4e8ce1a-e06c-4928-b956-1616b5500a44" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2b84998-36e2-461f-99b0-2ed901a0e971" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -13,12 +13,23 @@ public class LevelLoader : MonoBehaviour
     public void LoadGame()
     {
 
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(1);
     }
 
     public void LoadGameOver()
     {
-        SceneManager.LoadScene("GameOver");
+
+        SceneManager.LoadScene(2);
+        //StartCoroutine(WaitAndLoad());
+        
+        //SceneManager.LoadScene(2);
+        
+    }
+
+    IEnumerator WaitAndLoad()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(2);
     }
 
     public void QuitGame()
@@ -26,3 +37,4 @@ public class LevelLoader : MonoBehaviour
         Application.Quit();
     }
 }
+

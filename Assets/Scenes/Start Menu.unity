@@ -195,9 +195,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 8982738031975757682, guid: 83ffc06e820434e7e829de93b8cadedb, type: 3}
+      propertyPath: orthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982738031975757682, guid: 83ffc06e820434e7e829de93b8cadedb, type: 3}
+      propertyPath: field of view
+      value: 44.650394
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982738031975757682, guid: 83ffc06e820434e7e829de93b8cadedb, type: 3}
+      propertyPath: orthographic size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982738031975757682, guid: 83ffc06e820434e7e829de93b8cadedb, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8982738031975757709, guid: 83ffc06e820434e7e829de93b8cadedb, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982738031975757709, guid: 83ffc06e820434e7e829de93b8cadedb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3625
       objectReference: {fileID: 0}
     - target: {fileID: 8982738031975757709, guid: 83ffc06e820434e7e829de93b8cadedb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -631,6 +651,22 @@ PrefabInstance:
     - target: {fileID: 1721324679288182715, guid: 32d081bf6d1c24581aad53745189c0bd, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721324679288182716, guid: 32d081bf6d1c24581aad53745189c0bd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721324679288182716, guid: 32d081bf6d1c24581aad53745189c0bd, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721324679288182716, guid: 32d081bf6d1c24581aad53745189c0bd, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.698
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721324679288182716, guid: 32d081bf6d1c24581aad53745189c0bd, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 1721324679288182718, guid: 32d081bf6d1c24581aad53745189c0bd, type: 3}
       propertyPath: m_Name
