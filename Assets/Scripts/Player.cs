@@ -114,8 +114,6 @@ public class Player : MonoBehaviour
 
     private void die()
     {
-        //SceneManager.LoadScene(2);
-        //FindObjectOfType<LevelLoader>().LoadGameOver();
         FindObjectOfType<LevelLoader>().LoadGameOver();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
