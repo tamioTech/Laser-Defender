@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
     [SerializeField] float padding1 = .5f;
     [SerializeField] int playerHealth = 200;
     [Header("Projectile")]
+    
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed = 50f;
     [SerializeField] float projectileFiringPeriod = 0.1f;
@@ -75,6 +76,8 @@ public class Player : MonoBehaviour
     [SerializeField] [Range(0, 1)] float playerShootSFXVolume = 0.5f;
 
     Coroutine firingCoroutine;
+    HealthDisplay healthDisplay;
+    
 
     float xMin;
     float xMax;
@@ -106,10 +109,16 @@ public class Player : MonoBehaviour
     {
         playerHealth -= damageDealer.GetDamage();
         damageDealer.Hit();
+        
         if (playerHealth <= 0)
         {
             die();
         }
+    }
+
+    public int GetHealth()
+    {
+        return playerHealth;
     }
 
     private void die()
