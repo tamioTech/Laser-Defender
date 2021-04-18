@@ -2,27 +2,25 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreDisplay.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="116" Column="6" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Shredder.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/enemyPathing.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DamageDealer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BackgroundScroller.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/WaveConfig.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SceneLoader.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LevelLoader.cs" Line="27" Column="35" />
-      <File FileName="Assets/Scripts/MusicPlayer.cs" Line="10" Column="19" />
-      <File FileName="Assets/Scripts/GameSession.cs" Line="32" Column="22" />
+      <File FileName="Assets/Scripts/Enemy.cs" />
+      <File FileName="Assets/Scripts/Shredder.cs" />
+      <File FileName="Assets/Scripts/EnemySpawner.cs" />
+      <File FileName="Assets/Scripts/enemyPathing.cs" />
+      <File FileName="Assets/Scripts/DamageDealer.cs" />
+      <File FileName="Assets/Scripts/BackgroundScroller.cs" />
+      <File FileName="Assets/Scripts/WaveConfig.cs" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" />
+      <File FileName="Assets/Scripts/MusicPlayer.cs" />
+      <File FileName="Assets/Scripts/GameSession.cs" />
       <File FileName="Assets/Scripts/ScoreDisplay.cs" Line="24" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Laser-Defender" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="ScoreDisplay.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -31,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2b84998-36e2-461f-99b0-2ed901a0e971" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9addc36b-8f61-41b8-8014-66e1b950c42b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
